@@ -3,6 +3,7 @@ title: Private cloud
 abstract: Running apps on my self-hosted cloud.
 icon: ☁️
 tags: docker, docker swarm, cloud, GitHub actions
+date: 2026-02-01
 ---
 
 I've been working with Docker for a few years now, and I love it. The only thing is, I've only used it in development environments until now. So, that's when the idea arose to use it to deploy my side projects. It's taken a lot of research and work, but you're now reading content that is served from a Docker container running in a swarm. All that work just to serve static HTML files. Talk about over engineered. 😂

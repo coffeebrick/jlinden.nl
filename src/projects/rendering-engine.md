@@ -3,6 +3,7 @@ title: Rendering engine
 abstract: My attempt at creating a rendering engine in C++.
 icon: 🎮
 tags: OpenGL, c++
+date: 2022-01-17
 ---
 
 In college I did a minor game development which was really out of my comfort zone. I had built websites and webapps, but 3D software was something I hadn't tried yet. The final assignment was to build a 3D scene with OpenGL in C++ and I failed the first time. The second time, though, I put in so much time and effort that I got an A. I had so much fun while learning about OpenGL and C++ that I continued working on the project even after I graduated.

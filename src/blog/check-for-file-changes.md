@@ -3,6 +3,7 @@ title: Check for file changes in GitHub Actions
 permalink: /blog/check-for-file-changes-in-github-actions
 icon: 🗄️
 tags: github actions, git, ci/cd
+date: 2026-02-31
 draft: true
 ---
 
@@ -68,7 +69,7 @@ jobs:
   changes:
     runs-on: ubuntu-latest
      outputs:
-       has-changes: ${{ steps.changes.outputs.has-changes }}
+       has-changes: {{ "${{ steps.changes.outputs.has-changes }}" }}
      steps:
        - uses: actions/checkout@v3
          with:
@@ -85,7 +86,7 @@ jobs:
      runs-on: ubuntu-latest
      needs: changedfiles
      # only run there are changed files
-     if: ${{ needs.changedfiles.outputs.has-changes }}
+     if: {{ "${{ needs.changedfiles.outputs.has-changes }}" }}
      steps:
        - name: build
          run: ./build.sh

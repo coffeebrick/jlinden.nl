@@ -2,6 +2,7 @@
 title: Hello world!
 abstract: My first post on this blog.
 icon: 🌍
+date: 2023-05-31
 ---
 
 Every blog needs a start, right? Well, this is the start of my blog. I've been putting it off for a while now, but I really do want to start it. I'll try to figure out what works for me.

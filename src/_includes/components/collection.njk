@@ -1,5 +1,5 @@
 <ul class="w-full flex flex-wrap justify-between">
-  {% for item in collections[collection] %}
+  {% for item in collections[collection] | reverse %}
   <li class="my-4 mx-4 w-full bg-white rounded-lg shadow-bold overflow-hidden border-2 border-black min-h-[6.1875rem]">
       <a href="{{ item.url }}" class="flex h-full">
         <div class="w-24 flex">

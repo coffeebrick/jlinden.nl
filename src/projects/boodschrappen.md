@@ -3,6 +3,7 @@ title: Boodschrappen
 abstract: An app to help with grocery shopping.
 icon: 🛒
 tags: app, node, typescript, monorepo, nestjs, angular, ionic
+date: 2026-02-01
 ---
 
 <img src="/assets/images/boodschappenhulp-logo.svg" class="bg-teal p-1 m-1 rounded-lg float-right">
