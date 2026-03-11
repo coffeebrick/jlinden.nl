@@ -17,7 +17,7 @@ Halfway through high school (2018), I started working as a freelance web develop
 
 I built the site in Nuxt because I was using Vue but wanted a more structured development experience. I also used one of the first versions of Tailwind, which I still use today.
 
-The website source code is available on [GitHub](https://github.com/jappe999/webdrawings).
+The website source code is available on [GitHub](https://github.com/coffeebrick/webdrawings).
 
 ## jappe999.github.io
 
